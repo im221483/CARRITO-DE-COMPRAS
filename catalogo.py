@@ -10,6 +10,7 @@ def cargar_catalogo():
     return catalogo
 
 def mostrar_catalogo(catalogo):
+    """Muestra los productos del catalogo"""
     print("ID | Nombre | Precio | Stock")
     for id_prod, datos in catalogo.items():
         print(f"{id_prod} | {datos['nombre']} | {datos['precio']} | {datos['stock']}")
