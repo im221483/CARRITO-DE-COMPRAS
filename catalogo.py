@@ -1,3 +1,4 @@
+# Módulo de catálogo - Maneja productos de la tienda
 def cargar_catalogo():
     catalogo = {
         "P001": {"nombre": "Café", "precio": 45.0, "stock": 20},
