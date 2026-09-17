@@ -13,3 +13,5 @@ def generar_ticket(carrito, catalogo, total):
     print("TOTAL: $", total)
     print("FECHA:", fecha, "FOLIO:", folio)
     return (folio, fecha, total)
+
+# prueba de descuento
