@@ -12,3 +12,5 @@ def aplicar_descuento(subtotal, tipo_descuento):
         return subtotal - (subtotal * reglas["3x2"])
     else:
         return subtotal
+
+# correccion cupon invalido
