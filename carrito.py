@@ -1,3 +1,5 @@
+# Modulo carrito - version final
+
 def agregar_producto(carrito, catalogo, id_producto, cantidad):
     carrito.append((id_producto, cantidad))
 
@@ -12,3 +14,4 @@ def eliminar_producto(carrito, id_producto):
             carrito.remove(producto)
             print("Producto eliminado.")
             return
+            
