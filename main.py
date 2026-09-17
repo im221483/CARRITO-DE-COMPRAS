@@ -1,3 +1,4 @@
+# Versión rama conflicto-demo
 # Versión main diferente
 from catalogo import cargar_catalogo, mostrar_catalogo
 from carrito import agregar_producto, eliminar_producto
